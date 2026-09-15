@@ -12,6 +12,9 @@ A hands-on Security Operations Center lab, built from scratch to practice real d
 
 - [`docs/build-log.md`](docs/build-log.md) — a running, dated log of the build process, including the actual issues hit and how they were diagnosed and fixed
 - [`docs/investigations/`](docs/investigations/) — write-ups of real alerts investigated in the lab, each following: Alert → Evidence → Reasoning → Verdict → What would change the verdict, with MITRE ATT&CK mapping where relevant
+## Highlight: Investigation 02
+
+[**Possible DLL Search Order Hijack**](docs/investigations/02-dll-search-order-hijack.md) — a real alert from the lab's Wazuh rule engine, triaged using rule frequency, process context, and MITRE ATT&CK mapping to reach a benign verdict, with reasoning for what would change that conclusion.
 
 ## Why this exists
 
