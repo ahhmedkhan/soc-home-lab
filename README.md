@@ -1,0 +1,22 @@
+# SOC Home Lab
+
+A hands-on Security Operations Center lab, built from scratch to practice real detection and investigation work — not a tutorial walkthrough, a genuine build with real troubleshooting and real alerts.
+
+## Architecture
+
+- **SOC-Windows** — Windows 11 VM (victim/endpoint), instrumented with Sysmon (SwiftOnSecurity config) for rich telemetry
+- **SOC-Ubuntu** — Ubuntu VM running Wazuh (server, indexer, dashboard) as the SIEM
+- Both VMs isolated on an internal VirtualBox network
+
+## What's in this repo
+
+- [`docs/build-log.md`](docs/build-log.md) — a running, dated log of the build process, including the actual issues hit and how they were diagnosed and fixed
+- [`docs/investigations/`](docs/investigations/) — write-ups of real alerts investigated in the lab, each following: Alert → Evidence → Reasoning → Verdict → What would change the verdict, with MITRE ATT&CK mapping where relevant
+
+## Why this exists
+
+Built as a portfolio project targeting SOC Analyst L1 roles, to demonstrate hands-on detection engineering and investigative reasoning rather than just certifications.
+
+## Status
+
+Actively in progress — new investigations and build-log entries are added as the lab develops.
