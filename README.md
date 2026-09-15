@@ -1,6 +1,6 @@
 # SOC Home Lab
 
-A hands-on Security Operations Center lab, built from scratch to practice real detection and investigation work — not a tutorial walkthrough, a genuine build with real troubleshooting and real alerts.
+A hands-on Security Operations Center lab, built from scratch to practice real detection and investigation work, a genuine build with real troubleshooting and real alerts.
 
 ## Architecture
 
