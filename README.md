@@ -7,6 +7,11 @@ A hands-on Security Operations Center lab, built from scratch to practice real d
 - **SOC-Windows** — Windows 11 VM (victim/endpoint), instrumented with Sysmon (SwiftOnSecurity config) for rich telemetry
 - **SOC-Ubuntu** — Ubuntu VM running Wazuh (server, indexer, dashboard) as the SIEM
 - Both VMs isolated on an internal VirtualBox network
+## SOC Lab Architecture
+
+![SOC Lab Architecture](architecture/soc-lab-architecture.png)
+
+The lab uses an isolated VirtualBox environment with a Windows 11 endpoint and an Ubuntu-based Wazuh monitoring environment. Windows telemetry is collected through Sysmon and processed by Wazuh for detection and investigation.
 
 ## What's in this repo
 
